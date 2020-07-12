@@ -1,9 +1,6 @@
-@media and(max-width: 480px;){
-    body{
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to right,blue 0%,red 100%),url('w3css.gif');
-        background-blend-mode:color-dodge;
-    }    
+body{
+    display: flow-root;
+    background-color: lightgray;
 }
 .academic{
     background-color: yellow;
@@ -12,4 +9,8 @@
 img{
     max-width: 100%;
     height: auto;
+}
+p{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
